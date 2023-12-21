@@ -20,7 +20,7 @@ Using this project can potentially expose your device to the open internet depen
 * RTSP Streaming Support:
   * go2rtc
   * v4l2rtspserver (deprecated)
-* RTMP Streaming - via go2rtc: Stream live video from the camera to your favorite service, youtube, twitch, or facebook live.
+* RTMP Streaming - via go2rtc: Stream live video from the camera to your favorite service, youtube, twitch, owncast, or facebook live.
 * Networking: 
   * Wireguard, IPv6, CIFS/Samba and iptables support enabled
   * Tether your camera directly to android phones using USB via RNDIS support

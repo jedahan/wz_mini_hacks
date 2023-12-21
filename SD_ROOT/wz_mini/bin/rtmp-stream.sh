@@ -36,6 +36,10 @@ elif [[ "$1" == "facebook" ]]; then
         echo "RTMP Streaming to: facebook"
         STREAM_PROVIDER="$FACEBOOK_URL"
         KEY="$RTMP_STREAM_FACEBOOK_KEY"
+elif [[ "$1" == "owncast" ]]; then
+        echo "RTMP Streaming to: owncast"
+        STREAM_PROVIDER="$RTMP_STREAM_OWNCAST_HOST"
+        KEY="$RTMP_STREAM_OWNCAST_KEY"
 else
 	echo "Usage: rtmp-stream.sh <service> <no_audio>"
 	echo ""
